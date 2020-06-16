@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txvTenKH"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/vang"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvSuaKH"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=" Sửa Thông Tin Khách Hàng"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_loyalty_black_24dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvXoaKH"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=" Xóa Khách Hàng"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_delete_forever_black_24dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvCatTocChoKhach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=" Cắt Tóc"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_content_cut_black_24dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+    <TextView
+        android:id="@+id/txvDatLichHen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=" Đặt Ngày"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/den"
+        android:background="@color/trang"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_event_black_24dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/den"/>
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Xem Lịch Sử Cắt"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@color/den"-->
+<!--        android:background="@color/trang"-->
+<!--        android:paddingLeft="5dp"/>-->
+</LinearLayout>
